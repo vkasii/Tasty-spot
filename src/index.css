@@ -15,10 +15,16 @@
   --font-weight-bold: 500;
 }
 
+
+/* Reset styles */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+li {
+  list-style: none;
 }
 
 :root {
@@ -70,4 +76,8 @@ a:hover {
 
 .text-error {
   color: var(--color-error);
+}
+
+.text-highlighted {
+  color: var(--color-primary);
 }

@@ -1,7 +1,11 @@
+import CartRecipes from "../components/cartRecipes/CartRecipes";
+
 const Cart = () => {
   return (
-    <div>Cart</div>
-  )
-}
+    <>
+      <CartRecipes />
+    </>
+  );
+};
 
-export default Cart
+export default Cart;

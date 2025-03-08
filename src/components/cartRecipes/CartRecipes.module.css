@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.empty {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
+  color: var(--color-primary);
+}

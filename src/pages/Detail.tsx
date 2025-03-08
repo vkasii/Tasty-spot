@@ -1,7 +1,11 @@
+import RecipeDetail from "../components/recipeDetail/RecipeDetail";
+
 const Detail = () => {
   return (
-    <div>Detail</div>
-  )
-}
+    <>
+      <RecipeDetail />
+    </>
+  );
+};
 
-export default Detail
+export default Detail;
